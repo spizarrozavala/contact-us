@@ -1,0 +1,52 @@
+body{
+    background-color: darkslateblue ;
+}
+.contact-us{
+    width: 750px;
+    height: 380px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 10px;
+}
+.left-side{
+    width: 25%;
+    height: 100%;
+    background-color: orange;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.left-side i{
+    color: white;
+    margin-left: 18px;
+    margin-top: 50px;
+}
+.left-side p{
+font-size: 20px;
+margin-left: 18px;
+}
+.right-side{
+padding: 15px;
+margin-left: 20px;
+}
+.right-side p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.right-side input{
+    width: 400px;
+}
+.right-side #comment{
+    height: 80px;
+}
+.right-side button{
+    margin-top: 10px;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    border-color: none;
+}
